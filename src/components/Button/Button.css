@@ -1,0 +1,22 @@
+button {
+    padding: 8px 12px; /* Уменьшили размер */
+    background: var(--tg-theme-button-color);
+    color: var(--tg-theme-button-text-color);
+    border: none;
+    outline: none;
+    cursor: pointer;
+    border-radius: 8px; /* Закругленные углы */
+    transition: background 0.3s ease, transform 0.2s ease; /* Плавный переход для эффекта */
+}
+
+/* Эффект при наведении */
+button:hover {
+    background: linear-gradient(90deg, var(--tg-theme-button-color) 0%, #0066ff 100%);
+    transform: scale(1.05); /* Увеличение при наведении */
+}
+
+/* Эффект при клике */
+button:active {
+    transform: scale(0.95); /* Лёгкое уменьшение при нажатии */
+    background: linear-gradient(90deg, #0044cc 0%, var(--tg-theme-button-color) 100%);
+}
