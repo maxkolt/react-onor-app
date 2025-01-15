@@ -1,13 +1,3 @@
-button {
-    padding: 8px 12px; /* Уменьшили размер */
-    background: var(--tg-theme-button-color);
-    color: var(--tg-theme-button-text-color);
-    border: none;
-    outline: none;
-    cursor: pointer;
-    border-radius: 8px; /* Закругленные углы */
-    transition: background 0.3s ease, transform 0.2s ease; /* Плавный переход для эффекта */
-}
 
 /* Эффект при наведении */
 button:hover {
