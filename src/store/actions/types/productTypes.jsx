@@ -1,0 +1,1 @@
+export const SET_TOKEN_EXISTS = 'SET_TOKEN_EXISTS';

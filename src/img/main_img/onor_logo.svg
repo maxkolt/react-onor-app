@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 150" width="54" height="38">
+    <!-- Буква O -->
+    <circle cx="60" cy="75" r="50" stroke="#007BFF" stroke-width="8" fill="none" />
+    <circle cx="60" cy="75" r="30" fill="#007BFF" />
+
+    <!-- Буква N -->
+    <path d="M130 125 V25 L200 125 V25" stroke="#007BFF" stroke-width="8" fill="none" />
+
+    <!-- Буква O -->
+    <circle cx="270" cy="75" r="50" stroke="#007BFF" stroke-width="8" fill="none" />
+    <circle cx="270" cy="75" r="30" fill="#007BFF" />
+
+    <!-- Буква R -->
+    <path d="M340 125 V25 H390 C410 25 410 75 390 75 H340 M390 75 L420 125"
+          stroke="#007BFF" stroke-width="8" fill="none" />
+</svg>
+

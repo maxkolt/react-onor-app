@@ -1,0 +1,84 @@
+.conteiners {
+  width: 100%;
+  max-width: 1160px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+/* Карточка */
+.main__container {
+  text-align: start;
+  margin-bottom: 45px;
+}
+.main__h2 {
+  padding-top: 15px;
+  text-align: left;
+  padding-bottom: 15px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 42px;
+  color: #000000;
+  margin-bottom: 30px;
+}
+.main__h3 {
+  padding-top: 15px;
+  text-align: left;
+  padding-bottom: 15px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 42px;
+  color: #000000;
+  margin-bottom: 30px;
+}
+.main__content {
+  text-align: start;
+  margin-top: 10px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 20px;
+  max-height: auto;
+}
+.main__seller {
+  display: flex;
+  gap: 50px;
+}
+.main__container_img {
+  width: 170px;
+  height: 170px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+.main__seller_name {
+  font-size: 20px;
+  color: #000000;
+  font-weight: bold;
+}
+.main__seller_info {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  color: #5f5f5f;
+  font-size: 16px;
+}
+.main_button_num {
+  padding-top: 10px;
+}
+.main_button {
+  margin-top: 30px;
+  width: 214px;
+  height: 62px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  box-sizing: border-box;
+  background-color: #009ee4;
+  border: 1px solid #009ee4;
+  border-radius: 10px;
+  color: white;
+  font-size: 16px;
+  transition: all 0.3s;
+}
